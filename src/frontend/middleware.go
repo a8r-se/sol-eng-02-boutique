@@ -29,7 +29,7 @@ import (
 const (
 	// ServicePreviewId is the key containing the request Headers to be propagated to downstream services.
 	// TODO: We could support multiple headers being propagated, using an array or pattern of some sort
-	ServicePreviewId = "x-service-preview"
+	ServicePreviewId = "x-telepresence-intercept-id"
 
 	// ServicePreviewOriginalPath is the key containing the request Header with the Service Preview injected path prefix
 	ServicePreviewOriginalPath = "x-service-preview-path"
