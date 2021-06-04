@@ -32,7 +32,7 @@ spec:
         app: currencyservice
       annotations:
         linkerd.io/inject: "enabled"
-        config.linkerd.io/skip-outbound-ports: "8081,8022,6001"
+        config.linkerd.io/skip-outbound-ports: "8081,8022,6000-7999"
     spec:
       terminationGracePeriodSeconds: 5
       containers:
