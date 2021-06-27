@@ -24,7 +24,7 @@ metadata:
   namespace: boutique
   annotations:
     a8r.io/rollouts.deployment: frontend
-    a8r.io/rollouts.image-repo.name: amb/frontend
+    a8r.io/rollouts.image-repo.name: ambmatt/frontend
     a8r.io/rollouts.image-repo.type: dockerhub
     a8r.io/rollouts.mappings: frontend
     a8r.io/rollouts.scm.branch: master
