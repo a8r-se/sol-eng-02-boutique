@@ -2,7 +2,9 @@
 <img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300"/>
 </p>
 
-
+**Online Boutique and Telepresence**
+Please note that this cluster is leveraging ArgoCD and Argo Rollouts.
+All Online Boutique deployments are configured to use the Telepresence Mutating Webhook  
 
 **Online Boutique** is a cloud-native microservices demo application.
 Online Boutique consists of a 10-tier microservices application. The application is a
